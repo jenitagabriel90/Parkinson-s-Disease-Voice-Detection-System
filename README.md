@@ -26,39 +26,8 @@ A web application that detects Parkinson's Disease through voice analysis using 
 - SVM Classifier for healthy vs Parkinson's prediction
 - Feature Extraction: [MFCC]
 
-## 🌐 Browser Support
 
-| Browser | Support | Notes |
-|---------|---------|-------|
-| Chrome  | ✅ Full | Recommended browser |
-| Firefox | ✅ Full |  |
-| Edge    | ✅ Full |  |
-| Safari  | ⚠️ Partial | Voice recording may have limitations |
-| Mobile Chrome | ✅ Full |  |
-| Mobile Safari | ⚠️ Partial |  |
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v16+)
-- Python (v3.8+)
-- npm/yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
- 
-2. **Set up backend** 
-   ```bash
-   cd ml
-   pip install -r requirements.txt
-   uvicorn main:app --reload
-   
-3. **Set up frontend** 
-   ```bash
-    npm install
-    npm run dev
 
 
 
